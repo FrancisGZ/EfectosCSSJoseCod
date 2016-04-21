@@ -1,0 +1,68 @@
+/*div  {
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	width: 120px;
+	height: 50px;
+	margin: 30px 0 0 10px;
+}*/
+
+p{
+	padding-top: 15px;
+}
+
+.caja:hover{
+	-moz-animation: 5s cambia_color 1 ;
+}
+
+@-moz-keyframes cambia_color{
+
+	from {
+		background-color: blue;
+	}
+	to{
+		background-color: yellow;
+	}
+	/*0%, 70%{
+		background-color: blue;
+	}
+	50%{
+		background-color: red;
+	}*/
+}
+
+
+
+
+div{
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 15px 2px;
+	padding: 5px 40px;
+	text-align: center;
+	font-weight: bolder;
+	width: 80px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+.flash:hover{
+	-moz-animation:0.7s flash 1;
+}
+
+
+@-moz-keyframes flash {
+
+	25%,75%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	
+	
+}
