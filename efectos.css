@@ -174,3 +174,134 @@ p{
 						rotate(-6deg);
 	}
 }
+
+
+
+
+.vaiven:hover {
+	-moz-animation: 1s vaiven 1;
+	
+}
+
+
+@-moz-keyframes vaiven {
+	15%{
+		-moz-transform: rotate(-10deg)
+						translateX(-25%);
+	}
+	30%{
+		-moz-transform: rotate(5deg)
+						translateX(20%);
+	}
+	45%{
+		-moz-transform: rotate(-3deg)
+						translateX(-10%);
+	}
+	60%{
+		-moz-transform: rotate(2deg)
+						translateX(5%);
+	}
+
+	75%{
+		-moz-transform: rotate(-1deg)
+						translateX(-3%);
+	}
+}
+
+
+
+
+.rebote{
+	-moz-animation: 2s rebote 1;
+	
+}
+
+
+@-moz-keyframes rebote {
+	20%,50%,80%{
+		-moz-transform:translateY(0px);
+	}
+	40%{
+		-moz-transform:translateY(-45px);
+	}
+	60%{
+		-moz-transform:translateY(-25px);
+	}
+
+}
+
+
+.reboteIn{
+	-moz-animation: 1s reboteIn 1;
+	
+}
+
+@-moz-keyframes reboteIn{
+	0%{
+		opacity: 0;
+		-moz-transform: scale(0.3);
+	}
+	50%{
+		opacity: 1;
+		-moz-transform: scale(1.2);
+	}
+	70%{
+		-moz-transform: scale(0.9);
+	}
+}
+
+
+
+
+
+.reboteIn2{
+	-moz-animation: 1s reboteIn2 1;
+	
+}
+
+
+@-moz-keyframes reboteIn2 {
+	0%{
+		opacity: 0;
+		-moz-transform: translateX(-2000px);
+	}
+	50%{
+		opacity: 1;
+		-moz-transform: translateX(30px);
+	}
+	70%{
+		opacity: 1;
+		-moz-transform: translateX(-10px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
